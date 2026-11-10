@@ -27,14 +27,12 @@ export function About() {
           </p>
           <p>
             Each lab is built from scratch, configured, tested, and then written up step by step. The goal is to
-            understand <b>why</b> a configuration exists, what a fault looks like from the engineer’s side, and
+            understand <b>why</b> a configuration exists, what a fault looks like from an IT point of view, and
             how to prove a fix actually works.
           </p>
           <p>
-            The theory behind the labs and the full walkthroughs live in my public knowledge base at{" "}
-            <ExternalLink className="text-accent" href={SITE.learnUrl}>{SITE.learnLabel}</ExternalLink>. This site
-            is a personal learning record maintained by <b>{SITE.brand}</b>. It documents practice, not production
-            experience.
+            The theory behind each lab and its full walkthrough are in my public knowledge base at{" "}
+            <ExternalLink className="text-accent" href={SITE.learnUrl}>{SITE.learnLabel}</ExternalLink>. This site is my personal learning record: it documents my journey and how I put theory into practice through hands-on labs.
           </p>
         </div>
 

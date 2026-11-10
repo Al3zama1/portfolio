@@ -38,14 +38,13 @@ export function Hero() {
           </li>
           <li><b>YouTube walkthroughs:</b> Video guides for the labs as they are released.</li>
           <li><b>Areas practiced:</b> Routing, switching, VLANs, VPNs, and monitoring.</li>
-          <li><b>Tools:</b> Packet Tracer, GNS3, Wireshark, and Linux.</li>
+          <li><b>Tools:</b> Packet Tracer, GNS3, Wireshark, and VMWare Workstation.</li>
           <li><b>Documentation:</b> Topologies, configs, and outputs in every lab write-up.</li>
           <li><b>Purpose:</b> Hands-on learning toward a career in IT.</li>
         </ul>
-        <p className="mt-3.5 border-t border-line pt-3 text-[12.5px] text-muted">
+        {/* <p className="mt-3.5 border-t border-line pt-3 text-[12.5px] text-muted">
           Everything on this site is a personal, self-directed learning project carried out in my own lab.
-          Nothing here took place in a production or employer environment.
-        </p>
+        </p> */}
       </div>
     </section>
   );
