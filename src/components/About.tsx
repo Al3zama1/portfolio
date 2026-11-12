@@ -2,11 +2,10 @@ import { SITE } from "../data/site";
 import { ExternalLink } from "./ExternalLink";
 
 const FOCUS = [
-  "I build and configure routed and switched networks using OSPF, VLANs, and trunking.",
-  "I secure lab networks with access control lists, VPNs, and device hardening.",
-  "I troubleshoot broken networks by analyzing packets and working through root causes.",
-  "I monitor lab devices with SNMP, syslog, and dashboards to catch problems early.",
-  "I use Python to automate repetitive configuration and testing tasks.",
+  "I’m building networking labs covering switching, routing, VLANs, Spanning Tree, and network security.",
+  "I’m expanding into Windows Server and Active Directory to cover the systems and identity side that IT support and helpdesk roles rely on.",
+  "I focus on understanding not just how to configure something, but why it works and how it fails.",
+  "I treat each lab as a step toward real-world IT support, helpdesk, and network engineering roles.",
 ];
 
 export function About() {
@@ -23,16 +22,13 @@ export function About() {
           </p>
           <p>
             I document hands-on IT and networking labs focused on learning how networks and systems work in
-            realistic, controlled environments. My projects span routing, switching, VLANs, VPNs, and monitoring.
+            realistic, controlled environments. Each lab is built from scratch, configured, tested, and then written up step by step. The goal is to
+            understand <b>why</b> a configuration exists, what a fault looks like from an IT point of view, and how to prove a fix actually works.
           </p>
           <p>
-            Each lab is built from scratch, configured, tested, and then written up step by step. The goal is to
-            understand <b>why</b> a configuration exists, what a fault looks like from an IT point of view, and
-            how to prove a fix actually works.
-          </p>
-          <p>
-            The theory behind each lab and its full walkthrough are in my public knowledge base at{" "}
-            <ExternalLink className="text-accent" href={SITE.learnUrl}>{SITE.learnLabel}</ExternalLink>. This site is my personal learning record: it documents my journey and how I put theory into practice through hands-on labs.
+            I write articles on technology topics and later turn that theory into practical skills by building labs. My articles along with the lab walkthroughs are available at my public 
+            knowledge base at{" "}
+            <ExternalLink className="text-accent" href={SITE.learnUrl}>{SITE.learnLabel}</ExternalLink>.
           </p>
         </div>
 

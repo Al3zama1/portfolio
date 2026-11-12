@@ -37,8 +37,8 @@ export function Hero() {
             <ExternalLink className="text-accent" href={SITE.learnUrl}>{SITE.learnLabel}</ExternalLink>.
           </li>
           <li><b>YouTube walkthroughs:</b> Video guides for the labs as they are released.</li>
-          <li><b>Areas practiced:</b> Routing, switching, VLANs, VPNs, and monitoring.</li>
-          <li><b>Tools:</b> Packet Tracer, GNS3, Wireshark, and VMWare Workstation.</li>
+          <li><b>Areas practiced:</b> Netowrk Configuration & Management, Active Directory and systems administration.</li>
+          <li><b>Tools:</b> GNS3, Wireshark, and VMWare Workstation.</li>
           <li><b>Documentation:</b> Topologies, configs, and outputs in every lab write-up.</li>
           <li><b>Purpose:</b> Hands-on learning toward a career in IT.</li>
         </ul>
