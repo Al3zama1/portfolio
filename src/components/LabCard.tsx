@@ -43,7 +43,7 @@ export function LabCard({ lab }: { lab: Lab }) {
             GitHub ↗
           </ExternalLink>
         )}
-        {!lab.video && <span className="basis-full font-mono text-xs text-muted">Video walkthrough coming soon</span>}
+        {!lab.video && <span className="basis-full font-mono text-xs text-muted">{lab.coming}</span>}
       </div>
     </article>
   );

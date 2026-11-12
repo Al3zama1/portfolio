@@ -16,6 +16,7 @@ export interface Lab {
   video?: string;
   /** GitHub repo. The "GitHub" button only shows when this is set. */
   github?: string;
+  coming?: string;
 }
 
 export interface LabLesson {
@@ -40,7 +41,23 @@ export const LABS: Lab[] = [
     walkthrough: lab("/portfolio/secure-multi-vlan-office-network"),
     video: "",
     github: "",
+    coming: 'Video walkthrough coming soon'
   },
+  {
+    id: "secure-multi-vlan-office-network",
+    label: "Lab 02: In Progress",
+    thumb: "t2",
+    title: "Active Directory Domain Build",
+    category: "Active Directory / Windows Server / Helpdesk",
+    description:
+      "A Windows domain built from scratch with DNS, DHCP, Group Policy and file shares, then run like a helpdesk with delegated access and documented tickets",
+    chips: ["VMware Workstation", "Windows Server 2022", "Windows 10/11", "Active Directory", "DNS", "DHCP", "Group Policy", "PowerShell"],
+    walkthrough: "",
+    video: "",
+    github: "",
+    coming: "Video and lab walkthrough coming soon"
+  },
+
   // {
   //   id: "site-to-site-vpn",
   //   label: "Lab 02",
